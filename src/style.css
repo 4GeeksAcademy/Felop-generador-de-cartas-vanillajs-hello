@@ -2,6 +2,30 @@
 body {
   background-color: green;
 }
+#timer {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+#controls {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+}
+
 #card {
   display: flex;
   background: white;
@@ -15,20 +39,20 @@ body {
 }
 #top-suit {
   position: absolute;
-  top: 20px;
+  top: 2px;
   left: 20px;
-  font-size: 80px;
+  font-size: 70px;
 }
 #bottom-suit {
   position: absolute;
-  bottom: 20px;
+  bottom: 2px;
   right: 20px;
-  font-size: 80px;
+  font-size: 70px;
   transform: rotate(180deg);
 }
 #value {
   text-align: center;
-  font-size: 70px;
+  font-size: 80px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -39,4 +63,9 @@ body {
 }
 .black {
   color: black;
+}
+#generate-btn {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px 20px;
 }
